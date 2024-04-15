@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JSON to CSV Converter</title>
+        <script src="https://cdn.jsdelivr.net/npm/ajv@8.0.1/dist/ajv.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="description"
+            content="The JSON To CSV project is a tool that allows you to convert JSON data to CSV format.">
+        <meta name="keywords" content="JSON, CSV, Converter, JSON to CSV, JSON to CSV Converter, JSON to CSV Online, JSON to CSV Tool, JSON to CSV Converter Online, JSON to CSV Converter Tool, JSON to CSV Converter Online Tool, JSON to CSV Converter Tool Online, JSON to CSV Online Converter, JSON to CSV Tool Online, JSON to CSV Online Tool, JSON to CSV Online Converter Tool, JSON to CSV Tool Online Converter, JSON to CSV Online Tool Converter, JSON to CSV Converter Online Tool, JSON to CSV Converter Tool Online
+">
+        <meta name="author" content="OCEAN OF ANYTHING">
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="3 days">
+        <meta name="theme-color" content="#000000">
+        <meta name="msapplication-navbutton-color" content="#000000">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+        <meta property="og:title" content="JSON to CSV Converter">
+        <meta property="og:description"
+            content="The JSON To CSV project is a tool that allows you to convert JSON data to CSV format.">
+        <meta property="og:image" content="https://oceanofanythingofficial.github.io/JSON-To-CSV/preview.png">
+        <meta property="og:url" content="https://oceanofanythingofficial.github.io/JSON-To-CSV/">
+        <meta property="og:site_name" content="JSON to CSV Converter">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="en_US">
+        <meta property="og:twitter:card" content="summary_large_image">
+        <meta property="og:twitter:title" content="JSON to CSV Converter">
+        <meta property="og:twitter:description"
+            content="The JSON To CSV project is a tool that allows you to convert JSON data to CSV format.">
+        <meta property="og:twitter:image" content="https://oceanofanythingofficial.github.io/JSON-To-CSV/preview.png">
+        <meta property="og:twitter:url" content="https://oceanofanythingofficial.github.io/JSON-To-CSV/">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+    </head>
+
+    <body>
+        <div class="container">
+            <textarea id="inputTextArea" class="large-area large-area-input"
+                placeholder="Enter JSON data here..."></textarea>
+        </div>
+        <div class="mybtn">
+            <div class="controls">
+
+                <button type="button" class="controls-button controls-button-convert">Convert to CSV</button>
+
+                <button type="button" class="controls-button controls-button-copied">Copied</button>
+                <label class="controls-button controls-button-Upload" for="file_uploads">Upload
+                    JSON file</label>
+                <input style="display: none;" type="file" id="file_uploads" name="file_uploads" accept=".json" />
+
+
+                <button type="button" class="controls-button controls-button-restart">Reset</button>
+                <button type="button" class="controls-button controls-button-download">Download</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <textarea readonly class="large-area large-area-output" placeholder="CSV Result..."></textarea>
+        </div>
+
+        <footer class="footer">
+            <p>Created by <a href="https://OCEANOFANYTHINGOFFICIAL.github.io">OCEAN OF ANYTHING</a></p>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
